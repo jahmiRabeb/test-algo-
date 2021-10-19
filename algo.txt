@@ -1,0 +1,34 @@
+ALGORITHM CHECKPOINT-ALGORITHM
+
+VAR
+String string1 := "We are go My Code."; 
+i,j,v : INTEGER := 0;
+char, word, vowels : INTEGER := 0;
+BEGIN
+//The length of the sentence the number of characters
+  FOR i FROM 1 TO string1.length STEP 1  DO 
+   IF(string1[i] != ' ' AND string1[i] != '.') THEN
+    char := char + 1;   
+   END-IF
+  END-FOR
+// The number of words in the sentence
+  FOR j FROM 1 TO string1.length STEP 1  DO 
+   IF(string1[i] == ' ') THEN
+    word := word + 1; 
+   END-IF
+  END-FOR
+//The number of vowels in the sentence.
+  FOR v FROM 1 TO string1.length STEP 1  DO 
+  END-FOR
+  END-FOR
+  END-FOR
+   IF(string1[i]=='a' or string1[i]=='e' or string1[i]=='i' or string1[i]=='o' or string1[i]=='u' or string1[i]=='y'
+    or string1[i]=='A' or string1[i]=='E' or string1[i]=='I' or string1[i]=='O' or string1[i]=='U'or string1[i]=='Y') THEN
+    vowels:= vowels + 1; 
+   END-IF
+  END-FOR
+Write('Characters Number :', char)
+Write('Words Number :', word)
+Write('Vowels Number', vowels)
+  
+END

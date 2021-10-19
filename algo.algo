@@ -1,4 +1,4 @@
-ALGORITHM CHECKPOINT-ALGORITHM
+ALGORITHM CHECKPOINT-Algo
 
 VAR
 String string1 := "We are go My Code."; 
